@@ -1,0 +1,15 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2024-05-14-create-client-quotes-table
+      author: nosov-ao
+      changes:
+        - sqlFile:
+            path: quotes/2024-05-14-create-client-quotes-table.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: 2024-05-14-create-price-per-volume-items-table
+      author: nosov-ao
+      changes:
+        - sqlFile:
+            path: quotes/2024-05-14-create-price-per-volume-items-table.sql
+            relativeToChangelogFile: true
